@@ -1,0 +1,387 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body{
+	overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Menu*/
+
+.navbar-menu{
+    padding: 0 80px;
+    background-color: 87509c;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand{
+    color: yellow;
+    font-weight: bolder;
+}
+
+.brand-name{
+    color: white;
+    font-size: 25px;
+}
+
+.menu-link{
+    color: white;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+ 	background-color: #ffc416;
+    padding: 10px;
+}
+
+/*Greetings*/
+
+.greeting{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.greet-color{
+    background-color: 87509c;
+}
+
+.greeting h1{
+    color: white;
+    font-weight: bold;
+}
+
+.greeting button{
+    background-color: #eb7d4b;
+    border-color: #eb7d4b;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding: 20px 40px;;
+}
+
+/*Services*/
+
+.branding{
+    background-color: #17c2a4;
+}
+
+.service-team{
+    border-top: 5px solid #14a58c;
+    width:80px;
+}
+
+.service-padding{
+    padding: 20px;
+}
+
+.services{
+    padding: 10 40px;
+    background-color: #17c2a4;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-space{
+    padding-bottom: 85px;
+}
+
+.service-heading{
+    color: white;
+    text-align: center;
+}
+
+.service-heading h1{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.service-heading p{ 
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.branding p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.branding h3{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+/*Team*/
+
+.team-bg-color{
+    background-color: #e7f1f8;
+    padding: 85px 0;
+}
+    
+.team-content{
+    text-align: center;
+}
+
+.team-content p{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.team-mem-1{
+    text-align: center;
+}
+
+.team-mem-1 h1{
+    margin-top: 25px;
+}
+
+.fab{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #878787;
+    color: white;
+    margin-left: 10px;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    color: red;
+}
+
+.social-icons li {
+  float: left;
+}
+
+.social-icons li:last-child {
+  border-right: none;
+}
+
+.social-icons li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social-icons ul li a i{
+	color: #4a4a4a;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.line-team{
+    border-top: 5px solid #17c2a4;
+    width:80px;
+}
+
+.portfolio-line{
+    border-top: 5px solid #EBC985;
+    width:80px;
+}
+
+/*Skill*/
+
+.skill{
+    margin-top: 85px;
+}
+
+.line-skill{
+    border-top: 5px solid #e7f1f8;
+    width:80px;
+}
+
+.skills p{
+    margin-top: 25px;
+}
+
+/*Circle Bar*/
+
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+#circleBar {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 85px;
+
+}
+#circleBar .round {
+  min-height: 255px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#circleBar .round strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: #212121;
+  font-weight: 100;
+}
+#circleBar span {
+  display: block;
+  color: #999;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#circleBar span i {
+  color: #ff5c5c;
+  font-size: 22px;
+  margin-right: 6px;
+}
+section button:hover {
+  background-color: #ff5c5c;
+}
+
+/*portfolio*/
+
+.portfolio{
+    background-color: #FFDD99;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.our-portfolio p{
+    margin-bottom: 40px;
+}
+
+.all{
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: #EBC985;
+}
+
+/*Screen*/
+
+.screen{
+    background-color: #FFDD99;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.screen-img p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.screen-img2 p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.screen-img2{
+    margin-top: 50px;
+}
+
+.btn-portfolio{
+    margin-top: 50px;
+}
+
+.btn-portfolio button{
+    padding: 12px 30px;
+}
+
+/*Opinion*/
+
+.opinion{
+    background-color: #D74680;
+    padding: 100px 0;
+}
+
+.opinion-say{
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.opinion-line{
+    border-top: 5px solid #B73C6D;
+    width:80px;
+}
+
+.small-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #878787;
+}
+
+.circle-gap{
+    margin-top: 100px;
+}
+
+/*Touch*/
+
+.touch{
+    background-color: #3c5499;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.touch-line{
+    border-top: 5px solid #273a71;
+    width:80px;
+}
+
+.getting-touch p{
+    margin-top: 30px;
+}
+
+.form-control{
+    background-color: #273a71;
+    margin-top: 20px;
+}
+
+.sent-message{
+    margin-top: 20px;
+    padding: 10 30px;
+}
+
+/*Footer menu*/
+
+.footer{
+    background-color: #344b8e;
+}
+
+#nav {
+    text-align:center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#nav li a:hover{
+    background-color: #ffc416;
+    padding: 10px;
+}
+
+#nav li {
+    display:inline;
+}
+
+#nav li a{
+    color: white;
+}
+
+#nav a {
+    text-decoration:none; 
+    padding:0 30px;
+}
